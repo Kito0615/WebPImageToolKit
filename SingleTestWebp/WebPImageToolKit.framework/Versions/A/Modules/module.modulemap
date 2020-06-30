@@ -1,0 +1,6 @@
+framework module WebPImageToolKit {
+  umbrella header "WebPImageToolKit.h"
+
+  export *
+  module * { export * }
+}

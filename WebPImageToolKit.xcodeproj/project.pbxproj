@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		992D389C24AB204F00861B63 /* WebPImageToolKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 992D389A24AB204F00861B63 /* WebPImageToolKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		992D38AB24AB211800861B63 /* demux.h in Headers */ = {isa = PBXBuildFile; fileRef = 992D38A524AB211800861B63 /* demux.h */; };
-		992D38AC24AB211800861B63 /* mux.h in Headers */ = {isa = PBXBuildFile; fileRef = 992D38A624AB211800861B63 /* mux.h */; };
-		992D38AD24AB211800861B63 /* encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 992D38A724AB211800861B63 /* encode.h */; };
-		992D38AE24AB211800861B63 /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = 992D38A824AB211800861B63 /* types.h */; };
-		992D38AF24AB211800861B63 /* decode.h in Headers */ = {isa = PBXBuildFile; fileRef = 992D38A924AB211800861B63 /* decode.h */; };
-		992D38B024AB211800861B63 /* mux_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 992D38AA24AB211800861B63 /* mux_types.h */; };
+		992D38AB24AB211800861B63 /* demux.h in Headers */ = {isa = PBXBuildFile; fileRef = 992D38A524AB211800861B63 /* demux.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		992D38AC24AB211800861B63 /* mux.h in Headers */ = {isa = PBXBuildFile; fileRef = 992D38A624AB211800861B63 /* mux.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		992D38AD24AB211800861B63 /* encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 992D38A724AB211800861B63 /* encode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		992D38AE24AB211800861B63 /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = 992D38A824AB211800861B63 /* types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		992D38AF24AB211800861B63 /* decode.h in Headers */ = {isa = PBXBuildFile; fileRef = 992D38A924AB211800861B63 /* decode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		992D38B024AB211800861B63 /* mux_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 992D38AA24AB211800861B63 /* mux_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		992D38B524AB212E00861B63 /* libwebpmux.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 992D38B224AB212E00861B63 /* libwebpmux.a */; };
 		992D38B624AB212E00861B63 /* libwebp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 992D38B324AB212E00861B63 /* libwebp.a */; };
 		992D38B724AB212E00861B63 /* libwebpdemux.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 992D38B424AB212E00861B63 /* libwebpdemux.a */; };
@@ -27,6 +27,7 @@
 		992D38D024AB231500861B63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 992D38CF24AB231500861B63 /* main.m */; };
 		992D38D824AB23A000861B63 /* webp-demo.webp in Resources */ = {isa = PBXBuildFile; fileRef = 992D38D724AB23A000861B63 /* webp-demo.webp */; };
 		992D38D924AB246C00861B63 /* WebPImageToolKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992D389724AB204F00861B63 /* WebPImageToolKit.framework */; };
+		992D390524AB34F600861B63 /* WebPImageToolKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 992D389724AB204F00861B63 /* WebPImageToolKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,20 @@
 			remoteInfo = WebPImageToolKit;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		992D390624AB34F600861B63 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				992D390524AB34F600861B63 /* WebPImageToolKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		992D389724AB204F00861B63 /* WebPImageToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WebPImageToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -177,8 +192,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				992D38AD24AB211800861B63 /* encode.h in Headers */,
 				992D38BA24AB215700861B63 /* NSImage+WebpAndCGImage.h in Headers */,
+				992D38AD24AB211800861B63 /* encode.h in Headers */,
 				992D38AC24AB211800861B63 /* mux.h in Headers */,
 				992D38AF24AB211800861B63 /* decode.h in Headers */,
 				992D38AB24AB211800861B63 /* demux.h in Headers */,
@@ -216,6 +231,7 @@
 				992D38C024AB231500861B63 /* Sources */,
 				992D38C124AB231500861B63 /* Frameworks */,
 				992D38C224AB231500861B63 /* Resources */,
+				992D390624AB34F600861B63 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -441,7 +457,6 @@
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -472,7 +487,6 @@
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
