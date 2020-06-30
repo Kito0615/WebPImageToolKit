@@ -15,7 +15,7 @@ or you can asynchronously load webp file like this
 
 ```objective-c
 [NSImage imageWithWebp:#{webpfile_path}
-			 completionBlock:#{completion_block}
-					failureBlock:#{failure_block}];
+	   completionBlock:#{completion_block}
+          failureBlock:#{failure_block}];
 ```
 
