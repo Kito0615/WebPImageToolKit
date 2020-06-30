@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		992D389C24AB204F00861B63 /* WebPImageToolKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 992D389A24AB204F00861B63 /* WebPImageToolKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		992D38AB24AB211800861B63 /* demux.h in Headers */ = {isa = PBXBuildFile; fileRef = 992D38A524AB211800861B63 /* demux.h */; };
+		992D38AC24AB211800861B63 /* mux.h in Headers */ = {isa = PBXBuildFile; fileRef = 992D38A624AB211800861B63 /* mux.h */; };
+		992D38AD24AB211800861B63 /* encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 992D38A724AB211800861B63 /* encode.h */; };
+		992D38AE24AB211800861B63 /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = 992D38A824AB211800861B63 /* types.h */; };
+		992D38AF24AB211800861B63 /* decode.h in Headers */ = {isa = PBXBuildFile; fileRef = 992D38A924AB211800861B63 /* decode.h */; };
+		992D38B024AB211800861B63 /* mux_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 992D38AA24AB211800861B63 /* mux_types.h */; };
+		992D38B524AB212E00861B63 /* libwebpmux.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 992D38B224AB212E00861B63 /* libwebpmux.a */; };
+		992D38B624AB212E00861B63 /* libwebp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 992D38B324AB212E00861B63 /* libwebp.a */; };
+		992D38B724AB212E00861B63 /* libwebpdemux.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 992D38B424AB212E00861B63 /* libwebpdemux.a */; };
+		992D38BA24AB215700861B63 /* NSImage+WebpAndCGImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 992D38B824AB215700861B63 /* NSImage+WebpAndCGImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		992D38BB24AB215700861B63 /* NSImage+WebpAndCGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 992D38B924AB215700861B63 /* NSImage+WebpAndCGImage.m */; };
+		992D38BD24AB217700861B63 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992D38BC24AB217700861B63 /* Cocoa.framework */; };
+		992D38BF24AB224600861B63 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992D38BE24AB224600861B63 /* CoreGraphics.framework */; };
+		992D38C824AB231500861B63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 992D38C724AB231500861B63 /* AppDelegate.m */; };
+		992D38CA24AB231500861B63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 992D38C924AB231500861B63 /* Assets.xcassets */; };
+		992D38CD24AB231500861B63 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992D38CB24AB231500861B63 /* MainMenu.xib */; };
+		992D38D024AB231500861B63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 992D38CF24AB231500861B63 /* main.m */; };
+		992D38D824AB23A000861B63 /* webp-demo.webp in Resources */ = {isa = PBXBuildFile; fileRef = 992D38D724AB23A000861B63 /* webp-demo.webp */; };
+		992D38D924AB246C00861B63 /* WebPImageToolKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992D389724AB204F00861B63 /* WebPImageToolKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		992D38D524AB232400861B63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 992D388E24AB204E00861B63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 992D389624AB204F00861B63;
+			remoteInfo = WebPImageToolKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		992D389724AB204F00861B63 /* WebPImageToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WebPImageToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		992D389A24AB204F00861B63 /* WebPImageToolKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebPImageToolKit.h; sourceTree = "<group>"; };
+		992D389B24AB204F00861B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		992D38A524AB211800861B63 /* demux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = demux.h; sourceTree = "<group>"; };
+		992D38A624AB211800861B63 /* mux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mux.h; sourceTree = "<group>"; };
+		992D38A724AB211800861B63 /* encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encode.h; sourceTree = "<group>"; };
+		992D38A824AB211800861B63 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		992D38A924AB211800861B63 /* decode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decode.h; sourceTree = "<group>"; };
+		992D38AA24AB211800861B63 /* mux_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mux_types.h; sourceTree = "<group>"; };
+		992D38B224AB212E00861B63 /* libwebpmux.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwebpmux.a; path = WebPImageToolKit/WebP/lib/libwebpmux.a; sourceTree = "<group>"; };
+		992D38B324AB212E00861B63 /* libwebp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwebp.a; path = WebPImageToolKit/WebP/lib/libwebp.a; sourceTree = "<group>"; };
+		992D38B424AB212E00861B63 /* libwebpdemux.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwebpdemux.a; path = WebPImageToolKit/WebP/lib/libwebpdemux.a; sourceTree = "<group>"; };
+		992D38B824AB215700861B63 /* NSImage+WebpAndCGImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSImage+WebpAndCGImage.h"; sourceTree = "<group>"; };
+		992D38B924AB215700861B63 /* NSImage+WebpAndCGImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSImage+WebpAndCGImage.m"; sourceTree = "<group>"; };
+		992D38BC24AB217700861B63 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		992D38BE24AB224600861B63 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		992D38C424AB231500861B63 /* NSImageWebpDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSImageWebpDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		992D38C624AB231500861B63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		992D38C724AB231500861B63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		992D38C924AB231500861B63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		992D38CC24AB231500861B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		992D38CE24AB231500861B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		992D38CF24AB231500861B63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		992D38D124AB231500861B63 /* NSImageWebpDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSImageWebpDemo.entitlements; sourceTree = "<group>"; };
+		992D38D724AB23A000861B63 /* webp-demo.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "webp-demo.webp"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		992D389324AB204F00861B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992D38BF24AB224600861B63 /* CoreGraphics.framework in Frameworks */,
+				992D38BD24AB217700861B63 /* Cocoa.framework in Frameworks */,
+				992D38B524AB212E00861B63 /* libwebpmux.a in Frameworks */,
+				992D38B624AB212E00861B63 /* libwebp.a in Frameworks */,
+				992D38B724AB212E00861B63 /* libwebpdemux.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		992D38C124AB231500861B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992D38D924AB246C00861B63 /* WebPImageToolKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		992D388D24AB204E00861B63 = {
+			isa = PBXGroup;
+			children = (
+				992D389924AB204F00861B63 /* WebPImageToolKit */,
+				992D38C524AB231500861B63 /* NSImageWebpDemo */,
+				992D389824AB204F00861B63 /* Products */,
+				992D38B124AB212D00861B63 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		992D389824AB204F00861B63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				992D389724AB204F00861B63 /* WebPImageToolKit.framework */,
+				992D38C424AB231500861B63 /* NSImageWebpDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		992D389924AB204F00861B63 /* WebPImageToolKit */ = {
+			isa = PBXGroup;
+			children = (
+				992D38A224AB20BE00861B63 /* WebP */,
+				992D389A24AB204F00861B63 /* WebPImageToolKit.h */,
+				992D389B24AB204F00861B63 /* Info.plist */,
+				992D38B824AB215700861B63 /* NSImage+WebpAndCGImage.h */,
+				992D38B924AB215700861B63 /* NSImage+WebpAndCGImage.m */,
+			);
+			path = WebPImageToolKit;
+			sourceTree = "<group>";
+		};
+		992D38A224AB20BE00861B63 /* WebP */ = {
+			isa = PBXGroup;
+			children = (
+				992D38A324AB20E500861B63 /* include */,
+			);
+			path = WebP;
+			sourceTree = "<group>";
+		};
+		992D38A324AB20E500861B63 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				992D38A924AB211800861B63 /* decode.h */,
+				992D38A524AB211800861B63 /* demux.h */,
+				992D38A724AB211800861B63 /* encode.h */,
+				992D38AA24AB211800861B63 /* mux_types.h */,
+				992D38A624AB211800861B63 /* mux.h */,
+				992D38A824AB211800861B63 /* types.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		992D38B124AB212D00861B63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				992D38BE24AB224600861B63 /* CoreGraphics.framework */,
+				992D38BC24AB217700861B63 /* Cocoa.framework */,
+				992D38B324AB212E00861B63 /* libwebp.a */,
+				992D38B424AB212E00861B63 /* libwebpdemux.a */,
+				992D38B224AB212E00861B63 /* libwebpmux.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		992D38C524AB231500861B63 /* NSImageWebpDemo */ = {
+			isa = PBXGroup;
+			children = (
+				992D38D724AB23A000861B63 /* webp-demo.webp */,
+				992D38C624AB231500861B63 /* AppDelegate.h */,
+				992D38C724AB231500861B63 /* AppDelegate.m */,
+				992D38C924AB231500861B63 /* Assets.xcassets */,
+				992D38CB24AB231500861B63 /* MainMenu.xib */,
+				992D38CE24AB231500861B63 /* Info.plist */,
+				992D38CF24AB231500861B63 /* main.m */,
+				992D38D124AB231500861B63 /* NSImageWebpDemo.entitlements */,
+			);
+			path = NSImageWebpDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		992D389424AB204F00861B63 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992D38AD24AB211800861B63 /* encode.h in Headers */,
+				992D38BA24AB215700861B63 /* NSImage+WebpAndCGImage.h in Headers */,
+				992D38AC24AB211800861B63 /* mux.h in Headers */,
+				992D38AF24AB211800861B63 /* decode.h in Headers */,
+				992D38AB24AB211800861B63 /* demux.h in Headers */,
+				992D38B024AB211800861B63 /* mux_types.h in Headers */,
+				992D38AE24AB211800861B63 /* types.h in Headers */,
+				992D389C24AB204F00861B63 /* WebPImageToolKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		992D389624AB204F00861B63 /* WebPImageToolKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 992D389F24AB204F00861B63 /* Build configuration list for PBXNativeTarget "WebPImageToolKit" */;
+			buildPhases = (
+				992D389224AB204F00861B63 /* Sources */,
+				992D389324AB204F00861B63 /* Frameworks */,
+				992D389424AB204F00861B63 /* Headers */,
+				992D389524AB204F00861B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebPImageToolKit;
+			productName = WebPImageToolKit;
+			productReference = 992D389724AB204F00861B63 /* WebPImageToolKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		992D38C324AB231500861B63 /* NSImageWebpDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 992D38D224AB231500861B63 /* Build configuration list for PBXNativeTarget "NSImageWebpDemo" */;
+			buildPhases = (
+				992D38C024AB231500861B63 /* Sources */,
+				992D38C124AB231500861B63 /* Frameworks */,
+				992D38C224AB231500861B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				992D38D624AB232400861B63 /* PBXTargetDependency */,
+			);
+			name = NSImageWebpDemo;
+			productName = NSImageWebpDemo;
+			productReference = 992D38C424AB231500861B63 /* NSImageWebpDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		992D388E24AB204E00861B63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = anarl;
+				TargetAttributes = {
+					992D389624AB204F00861B63 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+					992D38C324AB231500861B63 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 992D389124AB204E00861B63 /* Build configuration list for PBXProject "WebPImageToolKit" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 992D388D24AB204E00861B63;
+			productRefGroup = 992D389824AB204F00861B63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				992D389624AB204F00861B63 /* WebPImageToolKit */,
+				992D38C324AB231500861B63 /* NSImageWebpDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		992D389524AB204F00861B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		992D38C224AB231500861B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992D38D824AB23A000861B63 /* webp-demo.webp in Resources */,
+				992D38CA24AB231500861B63 /* Assets.xcassets in Resources */,
+				992D38CD24AB231500861B63 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		992D389224AB204F00861B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992D38BB24AB215700861B63 /* NSImage+WebpAndCGImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		992D38C024AB231500861B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992D38D024AB231500861B63 /* main.m in Sources */,
+				992D38C824AB231500861B63 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		992D38D624AB232400861B63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 992D389624AB204F00861B63 /* WebPImageToolKit */;
+			targetProxy = 992D38D524AB232400861B63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		992D38CB24AB231500861B63 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				992D38CC24AB231500861B63 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		992D389D24AB204F00861B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		992D389E24AB204F00861B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		992D38A024AB204F00861B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/WebPImageToolKit/WebP/include",
+					"$(inherits)",
+				);
+				INFOPLIST_FILE = WebPImageToolKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WebPImageToolKit/WebP/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anarl.WebPImageToolKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SYSTEM_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		992D38A124AB204F00861B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/WebPImageToolKit/WebP/include",
+					"$(inherits)",
+				);
+				INFOPLIST_FILE = WebPImageToolKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WebPImageToolKit/WebP/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anarl.WebPImageToolKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SYSTEM_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		992D38D324AB231500861B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NSImageWebpDemo/NSImageWebpDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSImageWebpDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anarl.NSImageWebpDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		992D38D424AB231500861B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NSImageWebpDemo/NSImageWebpDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSImageWebpDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anarl.NSImageWebpDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		992D389124AB204E00861B63 /* Build configuration list for PBXProject "WebPImageToolKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				992D389D24AB204F00861B63 /* Debug */,
+				992D389E24AB204F00861B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		992D389F24AB204F00861B63 /* Build configuration list for PBXNativeTarget "WebPImageToolKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				992D38A024AB204F00861B63 /* Debug */,
+				992D38A124AB204F00861B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		992D38D224AB231500861B63 /* Build configuration list for PBXNativeTarget "NSImageWebpDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				992D38D324AB231500861B63 /* Debug */,
+				992D38D424AB231500861B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 992D388E24AB204E00861B63 /* Project object */;
+}
